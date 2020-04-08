@@ -1,0 +1,56 @@
+.cabecalho{
+    background-color: #007bff !important;
+}
+
+.cabecalho a{
+    color: white !important;
+    
+}
+
+#login_formulario{
+    width: 33.3%;
+    margin: 50px auto;
+    padding: 15px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255,255,255,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255,255,255,0);
+}
+
+.desconto{
+    text-align: right;
+}
+
+
+input::-webkit-outer-spin-button, 
+input::-webkit-inner-spin-button { margin-left: 20px; } 
+
+@media(max-width: 768px){
+    #login_formulario{
+        width: 100%;
+    }
+}
+
+.tabela_peca{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+fieldset{
+    background-color: #f5f5f5;
+}
+
+legend{
+    width: auto !important;
+}
+
+.erro{
+    color: red;
+    display: block;
+}
+
+.painel{
+    margin-top: 25px;
+}
+
+.container{
+    max-width: 95% !important;
+}
